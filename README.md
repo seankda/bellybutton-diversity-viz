@@ -1,4 +1,5 @@
 # Plot.ly Homework - Belly Button Biodiversity
+[View Webpage](https://seankda.github.io/bellybutton-diversity-viz/)
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
 
