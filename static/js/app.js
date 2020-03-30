@@ -129,11 +129,21 @@ ${otu_labels}`)
             },
         }
 
+        var bubble_config = {
+            toImageButtonOptions: {
+                format: 'svg', // one of png, svg, jpeg, webp
+                filename: 'OTU ID Bubbles',
+                height: 800,
+                width: 700,
+                scale: 1 // Multiply title/legend/axis/canvas sizes by this factor
+            }
+        };
+
         // Data array consists of trace
         var bubble_data = [bubble_trace]
 
         // 3. Create a bubble chart that displays each sample.
-        Plotly.newPlot("bubble", bubble_data, bubble_layout)
+        Plotly.newPlot("bubble", bubble_data, bubble_layout, bubble_config)
 
     })
 
